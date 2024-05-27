@@ -25,7 +25,7 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-semibold text-gray-600">
             <Typewriter
               words={[
-                "Front End Developer",
+                "Fullstack Developer",
                 "UI/UX Designer",
               ]}
               loop={true}
@@ -38,12 +38,13 @@ const Hero = () => {
             <button className="btn-primary mx-8">Contact Me</button>
           </div>
           <div className="flex mt-8 text-2xl items-center text-gray-600 md:justify-start justify-center gap-5">
-            <a href="https://wa.me/085624334143" className=" hover:text-white ">
+            <a href="https://wa.me/085624334143" 
+              className=" hover:text-white ">
               <FaWhatsapp />
             </a>
             <a
               href="https://instagram.com/agistadvbr"
-              className=" hover:text-white "
+              className=" hover:text-white"
             >
               <FaInstagram />
             </a>

@@ -2,8 +2,13 @@ import React from "react";
 import { FaReact } from "react-icons/fa6";
 import { FaHtml5 } from "react-icons/fa6";
 import { FaPhp } from "react-icons/fa6";
+import { FaPython } from "react-icons/fa6";
+import { FaFigma } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
 import { SiDart } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+import { DiPostgresql } from "react-icons/di";
+
 
 const Skills = () => {
   const skills = [
@@ -20,7 +25,7 @@ const Skills = () => {
     {
       logo: <FaPhp />,
       lavel: "Expert",
-      cont: "90",
+      cont: "95",
     },
     {
       logo: <SiTailwindcss />,
@@ -31,6 +36,26 @@ const Skills = () => {
       logo: <SiDart />,
       lavel: "Competent",
       cont: "50",
+    },
+    {
+      logo: <FaPython />,
+      lavel: "Competent",
+      cont: "60",
+    },
+    {
+      logo: <DiMysql />,
+      lavel: "Expert",
+      cont: "90",
+    },
+    {
+      logo: <DiPostgresql />,
+      lavel: "Expert",
+      cont: "80",
+    },
+    {
+      logo: <FaFigma />,
+      lavel: "Expert",
+      cont: "95",
     },
   ];
   return (
